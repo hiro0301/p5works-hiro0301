@@ -1,7 +1,7 @@
 // 小手調べ
 function setup(){
   noFill();
-  for(let i=0; i<10; i++){
+  for(let i=0; i<10; i=i+1){
     let r=i*10+10
     if (i<5) {
       stroke(255,0,0);
